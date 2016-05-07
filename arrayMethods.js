@@ -41,3 +41,9 @@ var notFruit = fruitCollection.splice(1, 3);
 gemBox.splice(5,2);
 gemBox.splice(6,4);
 console.log(fruitCollection, gemBox);
+
+upToTen.splice(2, 0, 3, 4, 5, 6, 7, 8);
+console.log(upToTen);
+
+brownOnly.splice(1, 5, 'brown', 'brown', 'brown');
+console.log(brownOnly);
