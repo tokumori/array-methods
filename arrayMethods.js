@@ -40,7 +40,8 @@ console.log(sortedNums, sortedWords);
 var notFruit = fruitCollection.splice(1, 3);
 gemBox.splice(5,2);
 gemBox.splice(6,4);
-console.log(fruitCollection, gemBox);
+console.log(notFruit, fruitCollection, gemBox);
+
 
 upToTen.splice(2, 0, 3, 4, 5, 6, 7, 8);
 console.log(upToTen);
@@ -52,7 +53,7 @@ var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
 console.log(orderedValuesNewLength);
 
 var randomThingsArray = genericNumberArray.concat(colors);
-var updatedOrders = orderQueue.concat({ takeOut: 'Ramen'}, {takeOut: 'Karage Chicken'});
+var updatedOrders = orderQueue.concat({ takeOut: 'Ramen'}, {takeOut: 'Karaage Chicken'});
 console.log(randomThingsArray, updatedOrders);
 
 var sentence = scrambledWords.join(' ');
