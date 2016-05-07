@@ -58,3 +58,7 @@ console.log(randomThingsArray, updatedOrders);
 var sentence = scrambledWords.join(' ');
 var myFruits = fruitCollection.join(' + ');
 console.log(sentence, myFruits);
+
+var favoriteFriends = friends.slice(1,3);
+var owesMoney = friends.slice(3);
+console.log(favoriteFriends, owesMoney);
