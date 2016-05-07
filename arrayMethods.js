@@ -29,3 +29,6 @@ console.log(colors);
 var unscrambledWords = scrambledWords.reverse();
 var revPhoneNumber = phoneNumber.reverse();
 console.log(unscrambledWords, revPhoneNumber);
+
+var nextOrder = orderQueue.shift();
+console.log (orderQueue, nextOrder);
