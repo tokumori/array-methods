@@ -62,3 +62,10 @@ console.log(sentence, myFruits);
 var favoriteFriends = friends.slice(1,3);
 var owesMoney = friends.slice(3);
 console.log(favoriteFriends, owesMoney);
+
+var monthNameString = monthNames.toString();
+console.log(monthNameString);
+
+var favoriteColor = colors.indexOf('Red');
+var favoriteEvenNumber = mixedNums.indexOf(76);
+console.log(favoriteColor, favoriteEvenNumber);
