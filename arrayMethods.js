@@ -25,3 +25,7 @@ console.log(tenArray);
 
 var popResult = colors.pop();
 console.log(colors);
+
+var unscrambledWords = scrambledWords.reverse();
+var revPhoneNumber = phoneNumber.reverse();
+console.log(unscrambledWords, revPhoneNumber);
