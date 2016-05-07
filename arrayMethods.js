@@ -22,3 +22,6 @@ console.log(nameArray);
 
 var tenArray = genericNumberArray.push(6, 7, 8, 9, 10);
 console.log(tenArray);
+
+var popResult = colors.pop();
+console.log(colors);
