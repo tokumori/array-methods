@@ -36,3 +36,8 @@ console.log (orderQueue, nextOrder);
 var sortedNums = mixedNums.sort();
 var sortedWords = mixedWords.sort();
 console.log(sortedNums, sortedWords);
+
+var notFruit = fruitCollection.splice(1, 3);
+gemBox.splice(5,2);
+gemBox.splice(6,4);
+console.log(fruitCollection, gemBox);
