@@ -32,3 +32,7 @@ console.log(unscrambledWords, revPhoneNumber);
 
 var nextOrder = orderQueue.shift();
 console.log (orderQueue, nextOrder);
+
+var sortedNums = mixedNums.sort();
+var sortedWords = mixedWords.sort();
+console.log(sortedNums, sortedWords);
